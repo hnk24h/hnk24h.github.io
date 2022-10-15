@@ -1,5 +1,5 @@
 # Site
-name: 'HoaNK'
+name: 'HNK'
 description: 'HNK - Nhận Đặt, Mua Hàng Nhật Nội Địa'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
@@ -19,21 +19,26 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+    hoank:
+      name:           Hoa Nguyen
+      url:            hoank
+      site:           https://www.facebook.com/khachoa.nguyen.93
+      avatar:         assets/images/avatar1.jpg
+      bio:            "Chào bạn, mình là Hòa. Đang sống và làm việc tại Osaka, Nhật Bản. Hiện tại mình đang làm về mảng Web application. Chúc bạn một ngày vui vẻ!!"
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
+      facebook:       https://www.facebook.com/khachoa.nguyen.93
+      youtube:       https://www.youtube.com/channel/UCI_-Z5Op_pT5jCvOoWbNCeQ
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
+    van:
+      name:           Van Hoang
+      url:            van
+      site:           https://www.facebook.com/hoangngoc.van99
+      avatar:         assets/images/avatar2.jpg
       bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
       email:          fakemail@gmail.com
       twitter:        https://twitter.com/wowthemesnet
+      facebook:       https://www.facebook.com/hoangngoc.van99
  
 # Defaults
 defaults:
@@ -43,8 +48,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
+      author: hoank
+      avatar: assets/images/avatar1.jpg
       
   # all pages
   - scope:
